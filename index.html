@@ -1,45 +1,120 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/css/main.css">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Igor Alekseev - Curriculum Vitae</title>
     <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
-    <title>The Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="lib/lightbox/css/lightbox.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="title">
-               The Page
+    <div class="header">
+        <p class="greetings">
+            Hi, I’m <br>
+            Igor Alekseev <br>
+            Software and Web developer
+        </p>
+        <svg id="wave" viewBox="0 0 1196 604" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!--            <path id="start" d="M317.023 0C317.023 0 457.294 105.064 566.732 131.546C676.17 158.029 756.511 131.546 860.304 184.078C964.096 236.61 1196 158.029 1196 158.029V533.132C1196 533.132 974.084 669.454 880.715 563.957C787.345 458.459 576.9 460.068 442.529 392.903C170.671 257.015 0 0 0 0H317.023Z" fill="url(#paint0_linear)"/>-->
+<!--            <path id="start" xmlns="http://www.w3.org/2000/svg" d="M317 0C317 0 462.5 100.5 550.5 127.5C638.5 154.5 670.5 137 762 154.5C853.5 172 849.5 191 925.5 201C1001.5 211 1196 159 1196 159V528.5C1196 528.5 1012.5 635 928.5 594C844.5 553 847 518 724.5 480.5C602 443 581.5 457.5 411.5 380C241.5 302.5 0 0 0 0H317Z" fill="url(#paint0_linear)"/>-->
+            <path id="start" xmlns="http://www.w3.org/2000/svg" d="M320 -1.90735e-05C360 57 465.5 100.5 553.5 127.5C641.5 154.5 673.5 137 765 154.5C856.5 172 852.5 191 928.5 201C1004.5 211 1115.5 170.5 1199 159C1282.5 147.5 1270.5 499 1199 528.5C1127.5 558 1015.5 635 931.5 594C847.5 553 850 518 727.5 480.5C605 443 584.5 457.5 414.5 380C244.5 302.5 34.4999 66 2.9999 -1.90735e-05C-28.5001 -66 280 -57 320 -1.90735e-05Z" fill="url(#paint0_linear)"/>
+            <path id="end" xmlns="http://www.w3.org/2000/svg" d="M317 3.8147e-06C357.5 30 537.5 42 625.5 69C713.5 96 680.5 163 772 180.5C863.5 198 919 125.5 995 135.5C1071 145.5 1131 193 1245 196.5C1359 200 1328.5 560.5 1245 578C1161.5 595.5 1082 569.5 998 528.5C914 487.5 857 544 734.5 506.5C612 469 656.5 399 486.5 321.5C316.5 244 59.5001 51 6.50011 3.8147e-06C-46.4999 -51 276.5 -30 317 3.8147e-06Z"/>
+<!--            <path id="end" xmlns="http://www.w3.org/2000/svg" d="M377 0C377 0 488.5 42 576.5 69C664.5 96 631.5 163 723 180.5C814.5 198 870 125.5 946 135.5C1022 145.5 1196 159 1196 159V528.5C1196 528.5 1033 569.5 949 528.5C865 487.5 808 544 685.5 506.5C563 469 607.5 399 437.5 321.5C267.5 244 0 0 0 0H377Z"/>-->
+            <defs>
+                <linearGradient id="paint0_linear" x1="688.764" y1="-42.9805" x2="598.054" y2="604.008" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#8AF700"/>
+                <stop offset="1" stop-color="#F50C8A" stop-opacity="0.03"/>
+                </linearGradient>
+            </defs>
+        </svg>
+        
+    </div>
+
+    <div class="start-scroll-point"></div>
+    <div class="container">
+        <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1213 577" fill="none">
+            <path d="M319.253 605.766C359.253 548.766 464.753 505.266 552.753 478.266C640.753 451.266 672.753 468.766 764.253 451.266C855.753 433.766 851.753 414.766 927.753 404.766C1003.75 394.766 1114.75 435.266 1198.25 446.766C1281.75 458.266 1269.75 106.765 1198.25 77.2655C1126.75 47.7656 1014.75 -29.2345 930.753 11.7655C846.753 52.7655 849.253 87.7656 726.753 125.266C604.253 162.766 583.753 148.266 413.753 225.766C243.753 303.266 33.7534 539.766 2.25338 605.766C-29.2466 671.766 279.253 662.766 319.253 605.766Z" fill="url(#paint1_linear)"/>
+            <defs>
+                <linearGradient id="paint1_linear" x1="1060" y1="832" x2="553.577" y2="-95.0419" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#F50C8A" stop-opacity="0.03"/>
+                    <stop offset="1" stop-color="#1DC3F8"/>
+                </linearGradient>
+            </defs>
+        </svg>-->
+        <h1 class="title">Curriculum Vitae</h1>
+        <div class="block about">
+            <h2 class="title">About me</h2>
+            <p class="text">I am 20 years old. Although I was born in Saratov, I am studying at Astrakhan State University in the course of information systems and technologies. It was noting that I have been addicted to programming since I was 14-15 years old.</p>
+        </div>
+        <div class="block skills">
+            <h2 class="title">Skills</h2>
+            <p class="text">
+                Java, Python and C#. <br>
+                Frontend web-development (HTML, CSS, JavaScript, including jquery, ajax). <br>
+                Backend: Python, PHP.
+            </p>
+        </div>
+        <div class="block hobbies">
+            <h2 class="title">Hobbies</h2>
+            <p class="text">Playing musical instruments, drawing, football, fishing...</p>
+        </div>
+        <div class="block work_experience">
+            <h2 class="title">Work experience</h2>
+            <table>
+                <tr>
+                    <th>Job</th>
+                    <th>Period</th>
+                </tr>
+                <tr>
+                    <td colspan="2">None</td>
+                </tr>
+            </table>
+        </div>
+        <div class="block education">
+            <h2 class="title">Education</h2>
+            <div class="stages_block">
+                <div class="stage">
+                    <a href="/img/lyceum53.png" data-lightbox="lyceum_image" data-title="Lyceum No. 53">
+                        <img src="/img/lyceum53.png" alt="">
+                    </a>
+                    <div class="description">
+                        <h3 class="title">Lyceum No. 53</h3>
+                        <p class="period">2008-2019</p>
+                    </div>
+                </div>
+                <div class="stage">
+                    <a href="/img/asu.png" data-lightbox="asu_image" data-title="Astrakhan State University">
+                        <img src="/img/asu.png" alt="">
+                    </a>
+                    <div class="description">
+                        <h3 class="title">Astrakhan State University</h3>
+                        <p class="period">2019-2023</p>
+                    </div>
+                </div>
             </div>
-       </header>
-       <div class="content">
-           <div class="container">
-               <h1>There are have to be something great here...</h1>
-               <p>But it is just the page hosted with GitHub Pages.</p>
-               <p>
-                   <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi soluta quo, cum ducimus error sequi fugiat! Impedit harum quidem, veritatis necessitatibus ratione totam expedita minus perspiciatis cum nobis maiores animi.</span>
-                   <span>Deserunt enim quo similique distinctio nihil accusantium illo, amet in doloremque earum, magnam dolorem minima ad, quod voluptatem quam ratione. Vitae ea obcaecati quis, ratione tempore sint autem eaque exercitationem!</span>
-                   <span>Vero, quod facere perspiciatis accusantium totam saepe explicabo molestiae itaque numquam delectus distinctio asperiores id cupiditate. Ea harum in, at nostrum reiciendis sapiente iusto, beatae dolorum, illo possimus nesciunt fugit!</span>
-                   <span>Officiis tempora labore, molestiae. Velit sit reprehenderit laboriosam, facilis nihil fugiat consequatur, laborum non, veritatis vitae, temporibus omnis iusto deserunt? Rerum tempore eius ab sunt laboriosam quae neque, provident amet.</span>
-               </p>
-           </div>
-       </div>
-       <footer class="footer">
-            <div class="container">
-              <div class="footer_body">
-                  <ul class='footer_list'>
-                    <li><a href="#">Item1</a></li>
-                    <li><a href="#">Item2</a></li>
-                    <li><a href="#">Item3</a></li>
-                    <li><a href="#">Item4</a></li>
-                    <li><a href="#">Item5</a></li>
-                  </ul>
-                  <a class='github_link' href="https://github.com"><img src="/img/github_logo.png" alt="GitHub"></a>
-              </div>
-           </div>
-       </footer>
-   </div>
+        </div>
+        <div class="block contact">
+            <a href="https://vk.com/igor_alekseev_hristianin" class="button fixed-size" target="_blank">ВК</a>
+            <a href="https://github.com/IgorAlexeew" class="button fixed-size" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+    <script src="lib/jquery/jquery-3.6.0.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.js"></script>
+    <script src="lib/kute.js"></script>
+    <script>
+        let tween = KUTE.fromTo('#start',  // target shape
+            { path: '#start' }, // from shape
+            { path: '#end' }, // to shape
+            { // options
+                easing: 'easingSinusoidalInOut',
+                yoyo: true, repeat: 9999, duration: 8000}
+        ).start();
+    </script>
 </body>
 </html>
