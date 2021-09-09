@@ -237,7 +237,10 @@ tr {
     .stage {
         flex: 1 1 100%;
     }
-
+    
+    .block {
+        scroll-snap-align: center;
+    }
 /*    html {
         font-size: 2.5vmin;
     }*/
