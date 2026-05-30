@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+# Igor Alekseev — Portfolio
 
-You can use the [editor on GitHub](https://github.com/IgorAlexeew/igoralexeew.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+> Личный сайт-визитка и интерактивное резюме, задеплоенное на GitHub Pages.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+🌐 **[igoralexeew.github.io](https://igoralexeew.github.io)**
 
-### Markdown
+---
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## О проекте
 
-```markdown
-Syntax highlighted code block
+Одностраничный сайт-резюме fullstack-разработчика. Создан как альтернатива PDF-резюме — с удобной навигацией, интерактивными элементами и адаптивной вёрсткой.
 
-# Header 1
-## Header 2
-### Header 3
+**Что внутри:**
+- Информация об опыте работы (bloXroute Labs, Peera, LoopCrypto)
+- Технический стек с фильтрацией по категориям
+- Soft skills
+- Образование и языки
 
-- Bulleted
-- List
+## Возможности
 
-1. Numbered
-2. List
+- 🎨 Светлая и тёмная тема
+- 📋 Копирование email в один клик
+- 🔽 Аккордеон с опытом работы
+- 🏷️ Фильтрация технологий по категориям (Frontend / Backend / AI / Web3 и др.)
+- 🔘 Переключатель «только коммерческий опыт»
+- 📱 Адаптивная вёрстка (десктоп / планшет / телефон)
 
-**Bold** and _Italic_ and `Code` text
+## Стек
 
-[Link](url) and ![Image](src)
-```
+Чистый HTML + CSS + JavaScript — без фреймворков и сборщиков. Шрифты: [Archivo](https://fonts.google.com/specimen/Archivo) · [Hanken Grotesk](https://fonts.google.com/specimen/Hanken+Grotesk) · [JetBrains Mono](https://fonts.google.com/specimen/JetBrains+Mono).
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Деплой
 
-### Jekyll Themes
+Сайт хостится через **GitHub Pages** из корня репозитория (`main` ветка, файл `index.html`).
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/IgorAlexeew/igoralexeew.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Контакты
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- ✉️ [alex_igor@vk.com](mailto:alex_igor@vk.com)
+- 💬 [Telegram](https://t.me/igoralekseew)
+- 🐙 [GitHub · Peera](https://github.com/IgorAlexeew) · [GitHub · bloXroute](https://github.com/igor-peera)
