@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Игорь Алексеев — Fullstack-разработчик</title>
+<meta name="description" content="Игорь Алексеев — fullstack-разработчик: Node.js / TypeScript, Python, React, AWS. AI-системы (RAG, LLM-агенты) и Web3.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -128,6 +129,7 @@ h2{font-family:'Archivo',sans-serif;font-weight:800;font-size:clamp(1.55rem,3.6v
 .tag.acad{border-style:dashed;color:var(--muted)}
 .tag.hide{display:none}
 .tag.dim{opacity:.2;pointer-events:none}
+.sub-head{font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin:30px 0 14px}
 .legend{font-family:'JetBrains Mono',monospace;font-size:.66rem;color:var(--muted);margin-top:16px}
 
 /* EDU/LANG */
@@ -185,14 +187,14 @@ footer p{font-family:'JetBrains Mono',monospace;font-size:.7rem;color:var(--mute
       </div>
       <div class="h-info">
         <p class="role">Fullstack-разработчик · <b>Middle+</b> · Node.js / React / Python</p>
-        <p class="meta">21.12.2000 · Астрахань / Саратов · удалённо</p>
+        <p class="meta">21.12.2000 · Астрахань · удалённо · готов к командировкам</p>
       </div>
       <div class="h-contacts">
         <div class="contacts">
           <button class="btn solid" id="copyMail"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><span id="mailtxt">alex_igor@vk.com</span></button>
-          <a class="btn" href="https://t.me/igoralekseew" target="_blank">Telegram</a>
-          <a class="btn" href="https://github.com/IgorAlexeew" target="_blank">GitHub · Peera</a>
-          <a class="btn" href="https://github.com/igor-peera" target="_blank">GitHub · bloXroute</a>
+          <a class="btn" href="https://t.me/igoralekseew" target="_blank" rel="noopener">Telegram</a>
+          <a class="btn" href="https://github.com/IgorAlexeew" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://github.com/igor-peera" target="_blank" rel="noopener">GitHub · bloXroute</a>
         </div>
       </div>
     </div>
@@ -200,44 +202,70 @@ footer p{font-family:'JetBrains Mono',monospace;font-size:.7rem;color:var(--mute
 
   <section id="about" class="reveal">
     <div class="sec-head"><span class="sec-num">01</span><h2>О себе</h2></div>
-    <p class="lead">Fullstack-разработчик с коммерческим опытом с 2022 года (4 года). Веду задачи полным циклом: ресерч и выбор оптимального под бизнес подхода, проектирование <span class="hl">архитектуры</span>, реализация, тестирование. Два сильных домена — <span class="hl">коммерческие системы с ИИ</span> (RAG, LLM-интеграции, боты) и <span class="hl2">Web3</span> (Solidity, блокчейн-стек); отдельно — академический опыт ML.</p>
-    <p class="lead">Беру ответственность за крупные задачи, ценю честность и внимание к архитектуре. На всех проектах участвую в проектировании UI/UX. Использую нейросети как инструмент, но предпочитаю контролируемую разработку с пониманием того, что делает код.</p>
+    <p class="lead">Fullstack-разработчик с 4+ годами коммерческого опыта. Закрываю задачи полного цикла — от проектирования <span class="hl">архитектуры</span> и backend-логики до интерфейса и деплоя в продакшн. Основной стек — Node.js / TypeScript, Python, React, AWS, Docker. Сильные домены — <span class="hl">AI-системы</span> (RAG, LLM-агенты, боты) и <span class="hl2">Web3</span>.</p>
+    <p class="lead">Спроектировал микросервисный AI-фреймворк (NestJS + React), RAG-пайплайн с векторным поиском на Weaviate и модуль интеграции с мессенджерами (Slack, Discord, Telegram). Выстраиваю AI-флоу разработки на базе LLM-агентов в Claude Code — от требований до PR.</p>
+    <p class="lead">Аспирант по направлению «Системный анализ, управление и обработка информации»: нейронные сети, NLP, автоматизация принятия решений. Изучаю Go.</p>
   </section>
 
   <section id="exp" class="reveal">
     <div class="sec-head"><span class="sec-num">02</span><h2>Опыт работы</h2></div>
 
-    <div class="exp open" data-exp>
+        <div class="exp open" data-exp>
       <div class="exp-head">
         <div class="exp-mid">
-          <div class="exp-co">bloXroute Labs</div>
-          <div class="exp-role">Fullstack-разработчик · по контракту через Peera</div>
+          <div class="exp-co">Р-Софт</div>
+          <div class="exp-role">Fullstack-разработчик</div>
         </div>
-        <div class="exp-date">2025 — наст.</div>
+        <div class="exp-date">2026 — наст.</div>
         <div class="plus"></div>
       </div>
       <div class="exp-body"><ul>
-        <li>Поддержка и развитие <b>клиентского</b> и <b>внутреннего</b> порталов (FE + BE: Python, Node.js, React)</li>
-        <li>Разработка новой версии внутреннего портала (frontend)</li>
-        <li>Новый функционал полным циклом: ресерч → выбор подхода → архитектура → реализация</li>
+        <li>Fullstack-разработка: <b>Node.js / TypeScript</b>, <b>Python</b>, <b>React</b></li>
       </ul></div>
     </div>
 
     <div class="exp" data-exp>
       <div class="exp-head">
         <div class="exp-mid">
-          <div class="exp-co">Peera <small>(ранее Peeranha)</small></div>
-          <div class="exp-role">Fullstack-разработчик / консалтинг</div>
+          <div class="exp-co">bloXroute Labs</div>
+          <div class="exp-role">Fullstack-разработчик · через Peera.ai</div>
         </div>
-        <div class="exp-date">2022 — наст.</div>
+        <div class="exp-date">2025 — 2026</div>
         <div class="plus"></div>
       </div>
       <div class="exp-body"><ul>
-        <li>Поддержка и развитие <b>форума</b> (frontend и backend), новый функционал в backend</li>
-        <li>Проектирование архитектуры <b>AI-фреймворка (RAG)</b>: отвечал за архитектурные принципы и стандарты кода, реализовывал компоненты, покрывал тестами</li>
-        <li>AI-боты и интеграции с мессенджерами (<b>Telegram, Discord, Slack</b>): нотификации, создание и ответы на посты через бота, AI-бот в групповом чате</li>
-        <li>Работа с <b>Web3</b>-стеком (Solidity и др.)</li>
-        <li>Наставничество: помогал двум <b>junior-разработчикам</b> влиться в проект (онбординг, ревью)</li>
+        <li>Инфраструктура для блокчейна ($70M+ Series B, лид-инвестор SoftBank): backend и frontend <b>клиентского портала с биллингом</b>, внутреннего портала поддержки и аналитики</li>
+        <li>Полный флоу покупки и пополнения баланса на <b>React + Redux + TypeScript</b>, адаптация backend API на Python</li>
+        <li>Архитектура и базовый шаблон админ-панели: <b>shadcn/ui, Zustand, Feature Sliced Design</b></li>
+        <li>Пайплайны парсинга сообщений Telegram и Discord для поддержки — дедупликация и <b>векторный поиск</b></li>
+        <li>REST API на Python для управления сервисами, ручное внесение платежей с хранением в <b>MySQL</b></li>
+        <li>Модули управления выделенной инфраструктурой и клиентскими конфигурациями, рефакторинг валидации запросов</li>
+        <li>Автомониторинг состояния backend по логам (<b>AWS Lambda, SNS, CloudWatch</b>) с уведомлениями в Slack</li>
+        <li>AI-флоу разработки на базе <b>LLM-агентов в Claude Code</b> — от требований до PR с трекингом в Jira; ускорил работу команды в 2 раза</li>
+      </ul></div>
+    </div>
+
+    <div class="exp" data-exp>
+      <div class="exp-head">
+        <div class="exp-mid">
+          <div class="exp-co">Peera.ai <small>(ранее Peeranha)</small></div>
+          <div class="exp-role">Fullstack-разработчик</div>
+        </div>
+        <div class="exp-date">2022 — 2026</div>
+        <div class="plus"></div>
+      </div>
+      <div class="exp-body"><ul>
+        <li>AI-платформа управления сообществами (Techstars, Mysten Labs, Protocol Labs), команда до 10 человек</li>
+        <li>Архитектура <b>микросервисного RAG-фреймворка</b>: модули ресурсов, клиентская часть, окружение на Docker, code style и паттерны</li>
+        <li>API всех сервисов на <b>ts-rest + Zod</b> с OpenAPI-документацией; REST API и backend виджета с LLM на <b>NestJS</b></li>
+        <li><b>Prisma + PostgreSQL</b> для ресурсов и задач Graphile Worker, middleware для диагностики запросов; переход с The Graph и DynamoDB</li>
+        <li>CI/CD на <b>GitHub Actions</b> через Docker Compose — сборка, валидация, деплой</li>
+        <li>Рефакторинг AI-автоответов с RAG-пайплайном (ООП, SOLID); участие в переходе от монолита к микросервисам</li>
+        <li>Модуль интеграции с мессенджерами в event-driven архитектуре — единое ядро с адаптерами для <b>Slack, Discord, Telegram</b></li>
+        <li>Клиентский AI-портал на <b>React + SWR</b>: настройка бота, база знаний, подписка через Outseta, синхронизация через AWS SQS</li>
+        <li>Обработчики блокчейн-транзакций с синхронизацией в DynamoDB через SNS — ответ backend сократился с 10–20 до 3–5 с</li>
+        <li>Смарт-контракт на <b>Solidity</b> для привязки кошелька к аккаунту в мессенджере; веб-парсеры Medium и GitHub для базы знаний</li>
+        <li>Курировал двух <b>junior-разработчиков</b> — онбординг, код-ревью, делегирование</li>
       </ul></div>
     </div>
 
@@ -272,25 +300,25 @@ footer p{font-family:'JetBrains Mono',monospace;font-size:.7rem;color:var(--mute
     </div>
     <div class="acad-toggle" id="acadToggle"><div class="switch"></div> Только коммерческий опыт</div>
     <div class="tags" id="tags">
-      <span class="tag" data-c="fe">React</span><span class="tag" data-c="fe">Next.js</span><span class="tag" data-c="fe">Vite</span><span class="tag" data-c="fe">Redux</span><span class="tag" data-c="fe">Zustand</span><span class="tag" data-c="fe">TanStack Query</span><span class="tag" data-c="fe">React Hook Form</span><span class="tag" data-c="fe">Tailwind</span><span class="tag" data-c="fe">shadcn/ui</span><span class="tag" data-c="fe">MUI</span><span class="tag" data-c="fe">Radix UI</span><span class="tag" data-c="fe">FSD</span>
-      <span class="tag" data-c="be">Node.js</span><span class="tag" data-c="be">Express</span><span class="tag" data-c="be">Serverless Framework</span><span class="tag" data-c="be">AWS Lambda</span><span class="tag" data-c="be">Python (serverless)</span><span class="tag acad" data-c="be">NestJS</span>
-      <span class="tag" data-c="api">REST</span><span class="tag" data-c="api">ts-rest</span><span class="tag" data-c="api">tRPC</span><span class="tag" data-c="api">GraphQL</span><span class="tag" data-c="api">OpenAPI</span><span class="tag" data-c="api">WebSocket</span>
+      <span class="tag" data-c="fe">React</span><span class="tag" data-c="fe">Next.js</span><span class="tag" data-c="fe">Vite</span><span class="tag" data-c="fe">Redux</span><span class="tag" data-c="fe">Zustand</span><span class="tag" data-c="fe">SWR</span><span class="tag" data-c="fe">TanStack Query</span><span class="tag" data-c="fe">React Hook Form</span><span class="tag" data-c="fe">Tailwind</span><span class="tag" data-c="fe">shadcn/ui</span><span class="tag" data-c="fe">MUI</span><span class="tag" data-c="fe">Radix UI</span><span class="tag" data-c="fe">FSD</span>
+      <span class="tag" data-c="be">Node.js</span><span class="tag" data-c="be">Express</span><span class="tag" data-c="be">Serverless Framework</span><span class="tag" data-c="be">AWS Lambda</span><span class="tag" data-c="be">NestJS</span><span class="tag" data-c="be">Python</span><span class="tag" data-c="be">Pytest</span><span class="tag" data-c="be">Jest</span>
+      <span class="tag" data-c="api">REST</span><span class="tag" data-c="api">ts-rest</span><span class="tag" data-c="api">Zod</span><span class="tag" data-c="api">tRPC</span><span class="tag" data-c="api">GraphQL</span><span class="tag" data-c="api">OpenAPI</span><span class="tag" data-c="api">WebSocket</span>
       <span class="tag" data-c="db">PostgreSQL</span><span class="tag" data-c="db">MySQL</span><span class="tag" data-c="db">Prisma</span><span class="tag" data-c="db">TypeORM</span><span class="tag" data-c="db">pgvector</span><span class="tag" data-c="db">Weaviate</span><span class="tag acad" data-c="db">Oracle</span><span class="tag acad" data-c="db">MongoDB</span><span class="tag acad" data-c="db">Graph DB</span>
-      <span class="tag" data-c="cloud">AWS API Gateway</span><span class="tag" data-c="cloud">ECS</span><span class="tag" data-c="cloud">Amplify</span><span class="tag" data-c="cloud">S3</span><span class="tag" data-c="cloud">CloudFront</span><span class="tag" data-c="cloud">RDS</span><span class="tag" data-c="cloud">Secrets Manager</span><span class="tag" data-c="cloud">IAM</span><span class="tag" data-c="cloud">CloudWatch</span><span class="tag" data-c="cloud">DynamoDB</span><span class="tag" data-c="cloud">Docker</span><span class="tag" data-c="cloud">GitHub Actions</span><span class="tag" data-c="cloud">Terraform</span><span class="tag" data-c="cloud">Nginx</span><span class="tag" data-c="cloud">Graphile Worker</span><span class="tag" data-c="cloud">SQS</span><span class="tag acad" data-c="cloud">Yandex Cloud</span>
-      <span class="tag" data-c="ai">OpenAI API</span><span class="tag" data-c="ai">Anthropic API</span><span class="tag" data-c="ai">RAG</span><span class="tag" data-c="ai">Telegram</span><span class="tag" data-c="ai">Discord</span><span class="tag" data-c="ai">Slack</span>
+      <span class="tag" data-c="cloud">AWS API Gateway</span><span class="tag" data-c="cloud">ECS</span><span class="tag" data-c="cloud">Amplify</span><span class="tag" data-c="cloud">S3</span><span class="tag" data-c="cloud">CloudFront</span><span class="tag" data-c="cloud">RDS</span><span class="tag" data-c="cloud">Secrets Manager</span><span class="tag" data-c="cloud">IAM</span><span class="tag" data-c="cloud">CloudWatch</span><span class="tag" data-c="cloud">DynamoDB</span><span class="tag" data-c="cloud">Docker</span><span class="tag" data-c="cloud">GitHub Actions</span><span class="tag" data-c="cloud">Terraform</span><span class="tag" data-c="cloud">Nginx</span><span class="tag" data-c="cloud">Graphile Worker</span><span class="tag" data-c="cloud">SQS</span><span class="tag" data-c="cloud">SNS</span><span class="tag" data-c="cloud">Docker Compose</span><span class="tag acad" data-c="cloud">Yandex Cloud</span>
+      <span class="tag" data-c="ai">OpenAI API</span><span class="tag" data-c="ai">Anthropic API</span><span class="tag" data-c="ai">RAG</span><span class="tag" data-c="ai">LLM-агенты</span><span class="tag" data-c="ai">Claude Code</span><span class="tag" data-c="ai">Pyrogram</span><span class="tag" data-c="ai">Telegram</span><span class="tag" data-c="ai">Discord</span><span class="tag" data-c="ai">Slack</span>
       <span class="tag" data-c="web3">Solidity</span><span class="tag" data-c="web3">ethers.js</span><span class="tag" data-c="web3">web3.js</span><span class="tag" data-c="web3">Hardhat</span><span class="tag" data-c="web3">Foundry</span><span class="tag" data-c="web3">The Graph</span>
       <span class="tag acad" data-c="ml">TensorFlow</span><span class="tag acad" data-c="ml">Keras</span><span class="tag acad" data-c="ml">scikit-learn</span><span class="tag acad" data-c="ml">pandas</span><span class="tag acad" data-c="ml">NumPy</span><span class="tag acad" data-c="ml">matplotlib</span>
       <span class="tag" data-c="tools">Git</span><span class="tag" data-c="tools">Turborepo</span><span class="tag" data-c="tools">pnpm</span><span class="tag" data-c="tools">ESLint</span><span class="tag" data-c="tools">Prettier</span><span class="tag" data-c="tools">DBeaver</span><span class="tag" data-c="tools">Figma</span><span class="tag" data-c="tools">Jira</span><span class="tag" data-c="tools">Cheerio</span><span class="tag" data-c="tools">Puppeteer</span>
     </div>
-    <p class="legend">Пунктиром — учебный / pet-опыт (NestJS, Oracle, MongoDB, Yandex Cloud, ML-стек).</p>
+    <p class="legend">Пунктиром — учебный / pet-опыт (Oracle, MongoDB, Yandex Cloud, ML-стек).</p>
   </section>
 
   <section id="soft" class="reveal">
     <div class="sec-head"><span class="sec-num">04</span><h2>Soft skills и медиа</h2></div>
-    <div class="tags" style="margin-bottom:30px">
+    <div class="tags">
       <span class="tag">Ответственность / ownership</span><span class="tag">Системное и архитектурное мышление</span><span class="tag">Решение проблем</span><span class="tag">Адаптивность / T-shape</span><span class="tag">Менторство и наставничество</span><span class="tag">Коммуникация в международной команде</span><span class="tag">Эмоциональный интеллект / эмпатия</span><span class="tag">Проактивность</span><span class="tag">Тайм-менеджмент</span><span class="tag">Продуктовое / UX-мышление</span>
     </div>
-    <div style="font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:14px">Дизайн и медиа</div>
+    <div class="sub-head">Дизайн и медиа</div>
     <div class="tags">
       <span class="tag" data-c="tools">Adobe Photoshop</span><span class="tag" data-c="tools">Premiere Pro</span><span class="tag" data-c="tools">DaVinci Resolve</span><span class="tag" data-c="tools">Figma</span><span class="tag acad" data-c="tools">Фотография</span><span class="tag acad" data-c="tools">Видеография</span>
     </div>
@@ -301,13 +329,13 @@ footer p{font-family:'JetBrains Mono',monospace;font-size:.7rem;color:var(--mute
     <div class="sec-head"><span class="sec-num">05</span><h2>Образование и языки</h2></div>
     <div class="grid2">
       <div>
-        <div class="edu"><div class="yr">2025 — наст. время</div><div class="deg">Аспирантура · спец. 2.3.1</div><div class="pl">Системный анализ, управление и обработка информации · АГУ</div></div>
-        <div class="edu"><div class="yr">2023 — 2025</div><div class="deg">Магистр</div><div class="pl">Информационные системы и технологии · АГУ</div></div>
+        <div class="edu"><div class="yr">2025 — 2028</div><div class="deg">Аспирантура · спец. 2.3.1</div><div class="pl">Системный анализ, управление и обработка информации · АГУ</div></div>
+        <div class="edu"><div class="yr">2023 — 2025</div><div class="deg">Магистр</div><div class="pl">Информационные системы и технологии (09.04.02) · АГУ</div></div>
         <div class="edu"><div class="yr">2019 — 2023</div><div class="deg">Бакалавр</div><div class="pl">Информационные системы и технологии · АГУ</div></div>
       </div>
       <div>
         <div class="lang-row"><span class="lang-name">Русский</span><span class="lang-lvl"><b>родной</b></span></div>
-        <div class="lang-row"><span class="lang-name">Английский</span><span class="lang-lvl"><b>технический разговорный</b><br>≈1 год ежедневных созвонов</span></div>
+        <div class="lang-row"><span class="lang-name">Английский</span><span class="lang-lvl"><b>B2</b><br>ежедневная работа в международной команде</span></div>
       </div>
     </div>
   </section>
@@ -317,7 +345,10 @@ footer p{font-family:'JetBrains Mono',monospace;font-size:.7rem;color:var(--mute
 
 <script>
 const root=document.documentElement, tbtn=document.getElementById('theme');
-tbtn.onclick=()=>{const m=root.getAttribute('data-theme')==='mist';root.setAttribute('data-theme',m?'fog':'mist');tbtn.textContent=m?'◑':'◐';};
+function setTheme(t){root.setAttribute('data-theme',t);tbtn.textContent=t==='fog'?'◑':'◐';}
+let saved=null;try{saved=localStorage.getItem('theme');}catch(e){}
+setTheme(saved||(matchMedia('(prefers-color-scheme: dark)').matches?'fog':'mist'));
+tbtn.onclick=()=>{const t=root.getAttribute('data-theme')==='mist'?'fog':'mist';setTheme(t);try{localStorage.setItem('theme',t);}catch(e){}};
 
 const cm=document.getElementById('copyMail'), mt=document.getElementById('mailtxt');
 cm.onclick=()=>{navigator.clipboard.writeText('alex_igor@vk.com').then(()=>{const o=mt.textContent;mt.innerHTML='<span class="ok">скопировано ✓</span>';setTimeout(()=>mt.textContent=o,1400);});};
